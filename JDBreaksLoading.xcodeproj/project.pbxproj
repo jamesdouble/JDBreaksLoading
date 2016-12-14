@@ -14,6 +14,10 @@
 		4F3F5F241E0166A700EFAC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F5F221E0166A700EFAC4A /* LaunchScreen.storyboard */; };
 		4F3F5F2F1E0166A700EFAC4A /* JDBreaksLoadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F5F2E1E0166A700EFAC4A /* JDBreaksLoadingTests.swift */; };
 		4F3F5F3A1E0166A700EFAC4A /* JDBreaksLoadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F5F391E0166A700EFAC4A /* JDBreaksLoadingUITests.swift */; };
+		4F3F5F481E0166C000EFAC4A /* JDBreaksLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F5F471E0166C000EFAC4A /* JDBreaksLoading.swift */; };
+		4F3F5F4B1E016B0800EFAC4A /* JDBreaksScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3F5F4A1E016B0800EFAC4A /* JDBreaksScene.swift */; };
+		4F3F5F521E016E0400EFAC4A /* BrokenPlatform.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F5F4E1E016E0400EFAC4A /* BrokenPlatform.sks */; };
+		4F3F5F541E016E0400EFAC4A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F3F5F501E016E0400EFAC4A /* spark.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4F3F5F351E0166A700EFAC4A /* JDBreaksLoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDBreaksLoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3F5F391E0166A700EFAC4A /* JDBreaksLoadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDBreaksLoadingUITests.swift; sourceTree = "<group>"; };
 		4F3F5F3B1E0166A700EFAC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3F5F471E0166C000EFAC4A /* JDBreaksLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDBreaksLoading.swift; sourceTree = "<group>"; };
+		4F3F5F4A1E016B0800EFAC4A /* JDBreaksScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDBreaksScene.swift; sourceTree = "<group>"; };
+		4F3F5F4E1E016E0400EFAC4A /* BrokenPlatform.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BrokenPlatform.sks; sourceTree = "<group>"; };
+		4F3F5F501E016E0400EFAC4A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 		4F3F5F181E0166A700EFAC4A /* JDBreaksLoading */ = {
 			isa = PBXGroup;
 			children = (
+				4F3F5F4C1E016E0400EFAC4A /* Particles */,
+				4F3F5F491E016AEC00EFAC4A /* JDBreaksLoading */,
 				4F3F5F191E0166A700EFAC4A /* AppDelegate.swift */,
 				4F3F5F1B1E0166A700EFAC4A /* ViewController.swift */,
 				4F3F5F1D1E0166A700EFAC4A /* Main.storyboard */,
@@ -123,6 +133,24 @@
 				4F3F5F3B1E0166A700EFAC4A /* Info.plist */,
 			);
 			path = JDBreaksLoadingUITests;
+			sourceTree = "<group>";
+		};
+		4F3F5F491E016AEC00EFAC4A /* JDBreaksLoading */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F5F471E0166C000EFAC4A /* JDBreaksLoading.swift */,
+				4F3F5F4A1E016B0800EFAC4A /* JDBreaksScene.swift */,
+			);
+			name = JDBreaksLoading;
+			sourceTree = "<group>";
+		};
+		4F3F5F4C1E016E0400EFAC4A /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				4F3F5F4E1E016E0400EFAC4A /* BrokenPlatform.sks */,
+				4F3F5F501E016E0400EFAC4A /* spark.png */,
+			);
+			path = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +221,7 @@
 				TargetAttributes = {
 					4F3F5F151E0166A700EFAC4A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 857SMZQ3R8;
 						ProvisioningStyle = Automatic;
 					};
 					4F3F5F291E0166A700EFAC4A = {
@@ -234,6 +263,8 @@
 			files = (
 				4F3F5F241E0166A700EFAC4A /* LaunchScreen.storyboard in Resources */,
 				4F3F5F211E0166A700EFAC4A /* Assets.xcassets in Resources */,
+				4F3F5F541E016E0400EFAC4A /* spark.png in Resources */,
+				4F3F5F521E016E0400EFAC4A /* BrokenPlatform.sks in Resources */,
 				4F3F5F1F1E0166A700EFAC4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +292,8 @@
 			files = (
 				4F3F5F1C1E0166A700EFAC4A /* ViewController.swift in Sources */,
 				4F3F5F1A1E0166A700EFAC4A /* AppDelegate.swift in Sources */,
+				4F3F5F4B1E016B0800EFAC4A /* JDBreaksScene.swift in Sources */,
+				4F3F5F481E0166C000EFAC4A /* JDBreaksLoading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 857SMZQ3R8;
 				INFOPLIST_FILE = JDBreaksLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jameskuo12345.JDBreaksLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 857SMZQ3R8;
 				INFOPLIST_FILE = JDBreaksLoading/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jameskuo12345.JDBreaksLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +540,7 @@
 				4F3F5F401E0166A700EFAC4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F3F5F411E0166A700EFAC4A /* Build configuration list for PBXNativeTarget "JDBreaksLoadingTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +549,7 @@
 				4F3F5F431E0166A700EFAC4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F3F5F441E0166A700EFAC4A /* Build configuration list for PBXNativeTarget "JDBreaksLoadingUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +558,7 @@
 				4F3F5F461E0166A700EFAC4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
