@@ -105,7 +105,6 @@
 		4F3F5F181E0166A700EFAC4A /* JDBreaksLoading */ = {
 			isa = PBXGroup;
 			children = (
-				4F3F5F4C1E016E0400EFAC4A /* Particles */,
 				4F3F5F491E016AEC00EFAC4A /* JDBreaksLoading */,
 				4F3F5F191E0166A700EFAC4A /* AppDelegate.swift */,
 				4F3F5F1B1E0166A700EFAC4A /* ViewController.swift */,
@@ -138,6 +137,7 @@
 		4F3F5F491E016AEC00EFAC4A /* JDBreaksLoading */ = {
 			isa = PBXGroup;
 			children = (
+				4F3F5F4C1E016E0400EFAC4A /* Particles */,
 				4F3F5F471E0166C000EFAC4A /* JDBreaksLoading.swift */,
 				4F3F5F4A1E016B0800EFAC4A /* JDBreaksScene.swift */,
 			);

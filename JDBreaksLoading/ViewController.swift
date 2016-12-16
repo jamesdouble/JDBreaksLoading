@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         let jd:JDBreaksLoading = JDBreaksLoading(frame: frame, configuration: config)
         
         self.view.addSubview(jd)
+     
+        
     }
 
     override func didReceiveMemoryWarning() {

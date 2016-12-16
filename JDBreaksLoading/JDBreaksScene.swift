@@ -102,7 +102,7 @@ class JDBreaksScene: SKScene{
         self.addChild(ball)
         
         //No gravity
-        self.physicsWorld.gravity = CGVector(dx: 0.05, dy: -0.5)
+        self.physicsWorld.gravity = CGVector(dx: 0.05, dy: -0.2)
         physicsWorld.contactDelegate = self
         ball.physicsBody!.applyImpulse(CGVector(dx: 2.0, dy: -2.0))
         
