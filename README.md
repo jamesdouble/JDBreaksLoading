@@ -1,7 +1,7 @@
 # JDBreaksLoading
 
 ***
-#Introduction
+# Introduction
 JDBreaksLoading Based on simple UIView and SpriteKit.
 
 You can easily start up a little breaking game by one line.
@@ -12,7 +12,7 @@ Thanks for using.
 
 ![Alt text](/../master/Readme_img/JDBreaksLoading.gif?raw=true "")
 
-#Usage
+# Usage
 
 To add JDBreaksLoading to your view, just give it a frame and addSubview.
 
@@ -21,7 +21,7 @@ To add JDBreaksLoading to your view, just give it a frame and addSubview.
   self.view.addSubview(jdbreaksLoading)
 ```
 
-###Game Configuration 
+### Game Configuration 
 The default [ Ball, Block , Paddle -> All white, Block count: 3 ]
 
 If you want to chagnge some game setting (color, block...etc).
