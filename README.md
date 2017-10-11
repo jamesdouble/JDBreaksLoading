@@ -47,7 +47,7 @@ You will need to set 'JDBreaksGameConfiguration'
   self.view.addSubview(jd)
 ```
 
-#Meta
+# Meta
 
 JamesDouble – jameskuo12345@google.com
 
