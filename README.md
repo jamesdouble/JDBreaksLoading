@@ -1,4 +1,8 @@
 # JDBreaksLoading
+![Alt text](https://img.shields.io/badge/SwiftVersion-3.0+-red.svg?link=http://left&link=http://right)
+![Alt text](https://img.shields.io/badge/IOSVersion-8.0+-green.svg)
+![Alt text](https://img.shields.io/badge/BuildVersion-1.0.0-green.svg)
+![Alt text](https://img.shields.io/badge/Author-JamesDouble-blue.svg?link=http://https://jamesdouble.github.io/index.html&link=http://https://jamesdouble.github.io/index.html)
 
 ***
 # Introduction
@@ -21,6 +25,15 @@ To add JDBreaksLoading to your view, just give it a frame and addSubview.
   self.view.addSubview(jdbreaksLoading)
 ```
 
+# Installation
+CocoaPods
+
+```
+ platform :ios, '8.0'
+ use_frameworks!
+ pod 'JDBreaksLoading'
+```
+
 ### Game Configuration 
 The default [ Ball, Block , Paddle -> All white, Block count: 3 ]
 
@@ -33,3 +46,11 @@ You will need to set 'JDBreaksGameConfiguration'
   let jd:JDBreaksLoading = JDBreaksLoading(frame: frame, configuration: config)
   self.view.addSubview(jd)
 ```
+
+#Meta
+
+JamesDouble – jameskuo12345@google.com
+
+Distributed under the MIT license. See LICENSE for more information.
+
+https://github.com/jamesdouble/JDBreaksLoading
